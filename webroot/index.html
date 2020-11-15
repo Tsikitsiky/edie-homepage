@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Edie</title>
-
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
     <header class="header-site">
@@ -12,6 +12,7 @@
             <h1 class="header-site__heading">
                 <a class="header-site__heading--link logo" href="/logo">Edie</a>
             </h1>
+            <input type="checkbox" name="menu" id="menu-checkbox">
             <nav class="header-site__menu">
                 <ul class="header-site__menu--navigation">
                     <li><a href="/">Home</a></li>
@@ -21,8 +22,9 @@
                     <li><a href="/contact">Contact</a></li>
                 </ul>
             </nav>
-            <label for="menu-checkbox">menu</label>
-            <input type="checkbox" name="menu" id="menu-checkbox">
+            <label class="icon-menu" for="menu-checkbox">
+                <span class="a11y">Open the menu</span>
+            </label>
         </div>
     </header>
     <main class="main">

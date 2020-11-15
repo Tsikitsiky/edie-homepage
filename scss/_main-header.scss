@@ -1,0 +1,17 @@
+.main__header {
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+
+    .main__header--heading {
+        order: 2;
+    }
+
+    p {
+        order: 1;
+        color: #2D9CDB;
+        font-size: 16px;
+        line-height: 18px;
+    }
+}

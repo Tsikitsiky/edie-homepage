@@ -1,0 +1,23 @@
+.header-site {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+.header-site__container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.icon-menu {
+    background-image: image('menu-24px.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.header-site__container label {
+    width: 16px;
+    height: 27px;
+    display: block;
+}
