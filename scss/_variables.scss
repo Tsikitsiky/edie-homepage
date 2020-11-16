@@ -1,8 +1,16 @@
 $color-grey: #F2F2F2;
 $color-blue: #2D9CDB;
+$color-grey-2: #4F4F4F;
+$color-green: #27AE60;
+$color-red: #EB5757;
 
 
 //icons
 @function image($filename) {
   @return url('../icons/#{$filename}');
+}
+
+@mixin icon-bg {
+  background-repeat: no-repeat;
+  background-position: center;
 }
