@@ -1,6 +1,10 @@
 body {
   background-color: white;
+  margin: 0;
   font-family: "Poppins", sans-serif; }
+
+body > * {
+  padding: 0 8px; }
 
 a {
   text-decoration: none;
@@ -21,12 +25,6 @@ h2 {
 
 h2, h3, p {
   margin: 0; }
-
-.h2 {
-  font-family: "Poppins" sans-serif;
-  font-weight: 500;
-  font-size: 24px;
-  font-family: 36px; }
 
 ul {
   list-style: none;
@@ -123,14 +121,15 @@ ul {
     padding-top: 30px;
     padding-bottom: 30px; }
   .main__article .main__article-footer form {
-    position: relative; }
+    position: relative;
+    max-width: 275px; }
     .main__article .main__article-footer form label {
       font-weight: 500;
       font-size: 10px;
       line-height: 13px; }
     .main__article .main__article-footer form input {
       background-color: #F2F2F2;
-      width: 275px;
+      width: 100%;
       height: 47px;
       border-radius: 12px;
       border: none;
@@ -145,9 +144,10 @@ ul {
       border-radius: 12px;
       position: absolute;
       bottom: 7%;
-      left: 72%; }
+      left: 80%; }
 
 .section-offers {
+  padding-top: 100px;
   padding-left: 5px;
   padding-right: 11px;
   padding-bottom: 146px; }
@@ -300,3 +300,60 @@ ul {
         font-size: 18px;
         line-height: 27px;
         color: #828282; }
+
+.footer-site {
+  background-color: #100E1D;
+  padding-left: 32px;
+  padding-bottom: 130px; }
+  .footer-site .footer-site__links {
+    padding-top: 36px;
+    padding-bottom: 64px; }
+    .footer-site .footer-site__links a {
+      color: #ffffff; }
+  .footer-site .logo {
+    font-family: "Heebo", sans-serif;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 52px;
+    color: #F2F2F2; }
+  .footer-site .social-media-list {
+    display: flex;
+    gap: 11px; }
+    .footer-site .social-media-list a {
+      display: block;
+      width: 24px;
+      height: 24px; }
+    .footer-site .social-media-list .icon-insta {
+      background-image: url("../icons/instagram.svg"); }
+    .footer-site .social-media-list .icon-linkedin {
+      background-image: url("../icons/linkedin.svg"); }
+    .footer-site .social-media-list .icon-twitter {
+      background-image: url("../icons/twitter.svg"); }
+  .footer-site .contact {
+    padding-top: 65px; }
+    .footer-site .contact form {
+      position: relative;
+      max-width: 275px; }
+      .footer-site .contact form label {
+        color: #828282;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 15px; }
+      .footer-site .contact form input {
+        background-color: #F2F2F2;
+        width: 100%;
+        height: 47px;
+        border-radius: 12px;
+        border: none;
+        padding-left: 1rem;
+        position: relative; }
+      .footer-site .contact form button {
+        background-color: #2D9CDB;
+        width: 71px;
+        height: 39px;
+        color: white;
+        border: none;
+        border-radius: 12px;
+        position: absolute;
+        bottom: 7%;
+        left: 80%; }
