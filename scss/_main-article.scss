@@ -1,0 +1,43 @@
+//main article
+.main__article {
+    padding-left: 32px;
+    .main__article--paragraph {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .main__article-footer {
+        
+     form {
+        position: relative;
+        label {
+            font-weight: 500;
+            font-size: 10px;
+            line-height: 13px;
+        }
+        input {
+            background-color: $color-grey;
+            width: 275px;
+            height: 47px;
+            border-radius: 12px;
+            border: none;
+            padding-left: 1rem;
+            position: relative;
+        }
+
+        button {
+            background-color: $color-blue;
+            width: 71px;
+            height: 39px;
+            color: white;
+            border: none;
+            border-radius: 12px;
+            position: absolute;
+            bottom: 7%;
+            left: 72%;
+        }
+    }
+}
+}
