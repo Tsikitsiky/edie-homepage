@@ -1,0 +1,79 @@
+.footer-site {
+    background-color: #100E1D;
+    padding-left: 32px;
+    padding-bottom: 130px;
+    
+    .footer-site__links {
+        padding-top: 36px;
+        padding-bottom: 64px;
+        
+        a {
+            color: #ffffff;
+        }
+    }
+
+    .logo {
+        font-family: "Heebo", sans-serif;
+        font-weight: 800;
+        font-size: 36px;
+        line-height: 52px;
+        color: $color-grey;
+    }
+
+    .social-media-list {
+        display: flex;
+        gap: 11px;
+
+        a {
+            display: block;
+            width: 24px;
+            height: 24px;
+        }
+        
+        .icon-insta {
+            background-image: image("instagram.svg");
+        }
+        .icon-linkedin {
+            background-image: image("linkedin.svg");
+        }
+        .icon-twitter {
+            background-image: image("twitter.svg");
+        }
+    }
+
+    .contact {
+        padding-top: 65px;
+
+        form {
+            position: relative;
+            max-width: 275px;
+            label {
+                color: #828282;
+                font-weight: 500;
+                font-size: 10px;
+                line-height: 15px;
+            }
+            input {
+                background-color: $color-grey;
+                width: 100%;
+                height: 47px;
+                border-radius: 12px;
+                border: none;
+                padding-left: 1rem;
+                position: relative;
+            }
+    
+            button {
+                background-color: $color-blue;
+                width: 71px;
+                height: 39px;
+                color: white;
+                border: none;
+                border-radius: 12px;
+                position: absolute;
+                bottom: 7%;
+                left: 80%;
+            }
+        }
+    }
+}
