@@ -1,0 +1,75 @@
+//section offers
+.section-offers {
+    padding-left: 5px;
+    padding-right: 11px;
+    padding-bottom: 146px;
+    .ui-ux {
+        background-color: $color-blue;
+        background-image: image('create-24px.svg');
+    }
+
+
+
+    .front-end {
+        background-color: $color-green;
+        background-image: image('code.svg');
+        background-size: 27px;
+    }
+
+    .back-end {
+        background-color: $color-red;
+        background-image: image('storage-24px.svg');
+    }
+}
+
+
+.article--card {
+    padding-top: 50px;
+    padding-left: 34px;
+    
+    .icon {
+        width: 67px;
+        height: 67px;
+        @include icon-bg;
+        border-radius: 16px;
+        margin-bottom: 35px;
+    }
+
+    .article__header--heading {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+        padding-bottom: 24px;
+    }
+
+    .article__description {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: $color-grey-2;
+        padding-bottom: 30px;
+    }
+
+    button {
+        color: #828282;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        padding: 9px 13px;
+        border: none;
+        border-radius: 12px;
+        background-color: #E0E0E0;
+    }
+
+   .front-end-btn {
+    color: white;
+    background-color: $color-blue;
+   }
+}
+
+.front-end-card {
+    box-shadow: 0px 10px 30px 0px #333333;
+    border-radius: 16px;
+    margin-top: 100px;
+    padding-bottom: 43px;
+}
