@@ -151,6 +151,8 @@ ul {
   padding-left: 5px;
   padding-right: 11px;
   padding-bottom: 146px; }
+  .section-offers .section-offers__header {
+    padding-left: 32px; }
   .section-offers .ui-ux {
     background-color: #2D9CDB;
     background-image: url("../icons/create-24px.svg"); }

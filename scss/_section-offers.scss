@@ -4,12 +4,15 @@
     padding-left: 5px;
     padding-right: 11px;
     padding-bottom: 146px;
+
+    .section-offers__header {
+        padding-left: 32px;
+    }
+
     .ui-ux {
         background-color: $color-blue;
         background-image: image('create-24px.svg');
     }
-
-
 
     .front-end {
         background-color: $color-green;
