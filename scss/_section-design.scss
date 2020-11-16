@@ -1,0 +1,47 @@
+//section designs
+.section-designs {
+    .section-designs__header {
+        padding-left: 32px;
+        padding-bottom: 48px;
+    }
+
+    li {
+        padding-bottom: 40px;
+    }
+
+    img {
+        width: 100%;
+        border-radius: 12px;
+    }
+
+    .design {
+        color: #828282;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .design-name {
+        color: #333333;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+    .section-designs__footer {
+        padding-left: 0;
+        button {
+            background-color: transparent;
+            color: $color-blue;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 27px;
+            padding-right: 2rem;
+            border: none;
+            background-image: image('arrow.svg');
+            background-position: right center;
+            background-repeat: no-repeat;
+            background-size: 1rem;
+        }
+    }
+}
