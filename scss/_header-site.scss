@@ -21,3 +21,9 @@
     height: 27px;
     display: block;
 }
+
+@media(min-width: 1040px) {
+    .header-site__container label {
+        display: none;
+    }
+}
