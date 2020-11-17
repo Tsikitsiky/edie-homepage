@@ -38,3 +38,17 @@ ul {
     margin: 0;
 }
 
+@media(min-width: 1040px) {
+    body > * {
+        padding: 0;
+        margin: 0 auto;
+        max-width: 1240px;
+    }
+
+    h2 {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 72px;
+    }
+}

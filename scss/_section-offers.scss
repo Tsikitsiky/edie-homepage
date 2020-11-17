@@ -65,15 +65,55 @@
         background-color: #E0E0E0;
     }
 
-   .front-end-btn {
-    color: white;
-    background-color: $color-blue;
-   }
+//    .front-end-btn {
+//     color: white;
+//     background-color: $color-blue;
+//    }
+
 }
 
-.front-end-card {
+.article--card:hover {
     box-shadow: 0px 10px 30px 0px #333333;
     border-radius: 16px;
-    margin-top: 100px;
+    margin-top: 50px;
     padding-bottom: 43px;
+
+    button {
+        color: white;
+        background-color: $color-blue;
+       }
+   }
+
+// .front-end-card {
+//     box-shadow: 0px 10px 30px 0px #333333;
+//     border-radius: 16px;
+//     margin-top: 100px;
+//     padding-bottom: 43px;
+// }
+
+@media(min-width: 1040px) {
+    .section-offers {
+        padding-left: 100px;
+        padding-right: 160px;
+
+        .section-offers__header {
+            max-width: 346px;
+            .section-offers__header--heading {
+                font-weight: 500;
+                font-size: 36px;
+                line-height: 54px;
+                
+            }
+        }
+
+        .section-offers__list {
+            display: flex;
+            gap: 1rem;
+            padding-left: 2rem;
+        }
+    }
+
+    .article--card:hover {
+        margin-top: 0;
+    }
 }

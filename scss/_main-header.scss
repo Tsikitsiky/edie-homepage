@@ -31,6 +31,23 @@
 }
 
 
+@media(min-width: 1040px) {
+    .main__header {
+        padding-left: 225px;
+        max-width: 543px;
+
+        .main__header--heading {
+            font-size: 48px;
+            line-height: 72px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 27px;
+        }
+    }
+}
+
 
 
 

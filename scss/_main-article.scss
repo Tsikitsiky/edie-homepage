@@ -31,6 +31,8 @@
 
         button {
             background-color: $color-blue;
+            font-size: 14px;
+            line-height: 21px;
             width: 71px;
             height: 39px;
             color: white;
@@ -42,4 +44,55 @@
         }
     }
 }
+}
+
+@media(min-width: 1040px) {
+    .main__article {
+        padding-left: 225px;
+        max-width: 366px;
+
+        .main__article--paragraph {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 27px;
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+        .main__article-footer {
+            
+         form {
+            position: relative;
+            max-width: 275px;
+    
+            label {
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 21px;
+            }
+            input {
+                background-color: $color-grey;
+                width: 100%;
+                height: 47px;
+                border-radius: 12px;
+                border: none;
+                padding-left: 1rem;
+                position: relative;
+            }
+    
+            button {
+                background-color: $color-blue;
+                font-size: 18px;
+                line-height: 27px;
+                width: 71px;
+                height: 39px;
+                color: white;
+                border: none;
+                border-radius: 12px;
+                position: absolute;
+                bottom: 7%;
+                left: 80%;
+            }
+        }
+    }
+    }
 }
