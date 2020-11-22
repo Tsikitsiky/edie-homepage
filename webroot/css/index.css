@@ -1,3 +1,33 @@
+@font-face {
+  font-family: "Heebo";
+  font-weight: 800;
+  font-style: normal;
+  src: local("Heebo"), local("Heebo"), url("../fonts/heebo_800.woff2") format("woff2"), url("../fonts/heebo_800.woff") format("woff"); }
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-style: normal;
+  src: local("Poppins"), local("Poppins"), url("../fonts/poppins_700.woff2") format("woff2"), url("../fonts/poppins_700.woff") format("woff"); }
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-style: normal;
+  src: local("Poppins"), local("Poppins"), url("../fonts/poppins_500.woff2") format("woff2"), url("../fonts/poppins_500.woff") format("woff"); }
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-style: normal;
+  src: local("Poppins"), local("Poppins"), url("../fonts/poppins_400.woff2") format("woff2"), url("../fonts/poppins_400.woff") format("woff"); }
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 300;
+  font-style: normal;
+  src: local("Poppins"), local("Poppins"), url("../fonts/poppins_300.woff2") format("woff2"), url("../fonts/poppins_300.woff") format("woff"); }
+
 body {
   background-color: white;
   margin: 0;
